@@ -1,0 +1,169 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+
+    .header-section{
+        width: 40%;
+         
+    }
+
+    .header-section .navbar{
+        background-color: rgba(0,0,0,0.6);
+        position:absolute; 
+        top: 0;
+        backdrop-filter: blur(8px);
+        box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+        width: 100%;
+    }
+
+    .banner-section .carousel-inner .carousel-item{
+        width:100%;
+        height: 100%;
+        background-size: cover;
+        margin: 0px 0px; 
+        padding: 0px 0px;
+        
+    }
+    
+
+    .picture .col-lg-12 ul{
+        list-style-type:square;
+        color: #4d5053;
+        display:grid;
+        justify-content: left;
+        text-align: left!important;
+        margin-bottom: 0;
+    }
+
+    .picture .col-lg-12 ul a{
+        text-decoration:none;
+        font-size: 30px;
+         
+        border-radius: 0;
+        color: #212529;
+        text-transform: capitalize;
+        align-items: center;
+        margin: 0px 0px;  
+        display: flex;
+    }
+    
+    .picture .col-lg-12 ul a:hover{
+        color: #fc6060;
+         
+    }
+
+
+    .slide .item img{
+        display: block;
+        width: 100%;   
+    }
+
+    .slide .item .overlay{
+        position: absolute;
+        width: 100%;
+        height:88%;
+        bottom: 0;
+        top:0;
+        right: 0;
+        left: 0px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .slide .item .overlay:hover{
+        width: 100%;
+        height:100%;
+        left: 0px;
+        background: #fc6060;
+        overflow: visible;
+        z-index: 1;
+        transition: 1s ease; 
+    }
+
+    .slide .item .text{
+        display:none;
+    }
+
+    .slide .item:hover .text{
+        display:block;
+        color: #ffffff;
+        size: 14px;
+        z-index: 1;
+
+    }
+
+        .instagram .row{
+        padding:8px; 
+        text-align: center;
+    }
+
+    .instagram .col-lg-12{
+        margin-bottom: 0px;
+        padding-top: 0px;
+    }
+
+    .footer-section .row{
+        padding: 10px 0px 10px 10px; 
+        text-align: center;
+    }
+  }
